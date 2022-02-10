@@ -37,7 +37,7 @@ body {
     margin-top: 10px;
     padding: 5px;
     box-shadow: 1px 1.5px 5px #000;
-
+    border-radius: 10px;
 }
 
 ul {
@@ -53,6 +53,8 @@ ul {
 .navbar li:hover {
     border-bottom: 1.5px #000 solid;
 }
+
+
 
 .main {
     justify-content: center;
@@ -71,8 +73,9 @@ ul {
 #big {
     color: whitesmoke;
     width: 85%;
-    
 }
+
+
 .sub-head p{
     font-size: 2.5rem;
     font-weight: 500;
@@ -96,3 +99,9 @@ section h2 {
     box-shadow: 2px 2px 5px #000;
     margin-bottom: 30px;
 }
+
+.all-years {
+    padding: 40px;
+
+}
+

@@ -23,3 +23,27 @@
 .m-1 {
     margin: 1rem;
 }
+
+.pad-1 {
+    margin-top: -20px;
+    margin-bottom: 30px;
+    box-shadow: 2px 2px 5px rgb(61, 61, 61);
+    transition: transform .2s ease-out;
+}
+
+.pad-1 h3 {
+    font-size: 1.5rem;
+}
+
+.pad-1 p {
+    font-size: 1rem;
+ 
+}
+
+.mar {
+    margin-top: 20px;
+}
+
+.pad-1:hover {
+    transform: translateY(-3px);
+}
