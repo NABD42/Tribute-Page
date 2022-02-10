@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'open sans condensed';
+    line-height: 1.6;
+}
+
+#tete {
+    display: grid;
+    position: relative;
+    flex-direction: column;
+}
+
+/* NAVBAR */
+
+.navbar a {
+    margin: 15px;
+    padding: 0 10px;
+    text-decoration-line: none;
+    color: black;
+    font-weight: 600;
+}
+
+.navbar ul {
+    display: flex;
+    padding: 20px;
+    
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+#navbar li {
+    height: 30px;
+}
+
+.navbar li:hover {
+    border-bottom: 2px #000 solid;
+}
+
+.main {
+    justify-content: center;
+}
+
+.main h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.main p {
+    text-align: center;
+    font-size: x-large;
+}
+
+.sub-head img {
+    width: 150px;
+    
+}
+
+.sub-head {
+    display: flex;
+
+}
+
+.sub-head p{
+    font-size: 1rem;
+    margin-top: -50px;
+
+
+}
